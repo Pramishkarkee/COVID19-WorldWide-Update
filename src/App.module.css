@@ -8,3 +8,6 @@ body{
     flex-direction: column;
     margin:20px;
 }
+h1{
+    color:red
+}

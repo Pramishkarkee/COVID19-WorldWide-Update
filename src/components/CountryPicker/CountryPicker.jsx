@@ -16,8 +16,8 @@ useEffect(()=>{
 // console.log("props",props)
 return(
     <FormControl className="styles.formControl">
-        <NativeSelect defaultValue="" onChange={(e)=>props.handleCountryChange(e.target.value)}>
-            <option value="globel">Global</option>
+        <NativeSelect defaultValue="Nepal" onChange={(e)=>props.handleCountryChange(e.target.value)}>
+            <option value="Nepal"> CHOOSE COUNTRY</option>
                 {countryData.map((country,i)=><option key={i} value={country}>{country}</option>)}
         </NativeSelect>
     </FormControl>
